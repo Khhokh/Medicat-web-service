@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
-const ML_API_URL = "http://127.0.0.1:5000/predict"; // Your Flask API endpoint
+const ML_API_URL = "https://my-own-api-rrre.onrender.com/predict"; // Your Flask API endpoint
 
 // Route to render the HTML file
 app.get("/", (req, res) => {
