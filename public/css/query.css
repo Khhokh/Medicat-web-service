@@ -1,1 +1,76 @@
+@media(max-width:29.31em){
+    /* .hero{
+        max-width: 120rem;
+    } */
+    .serviceGrid{
+        grid-template-columns: 27rem 27rem;
+        grid-template-rows: 22rem 22rem 22rem;
+        width: 77%;
+     }
+     .divForForm{
+        display: grid;
+        grid-template-columns: 400px 603px;
+        grid-template-rows: auto;
+        width: 1200px;
+        margin: 81px auto;
+     }
+     .textA{
+        width: 1008px;
+     }
+     .nav-container{
+        width: 70rem;
+        grid-template-columns: 1fr 1fr;
+     }
 
+     .hero{
+        width: 1161px;
+        padding: 34px;
+        margin-bottom: 57px;
+     }
+     .header{
+        display: grid;
+        grid-template-columns: 41rem 43rem;
+        justify-content: center;
+        grid-template-rows: auto;
+     }
+     .How-it-build {
+        /* height: 166vh; */
+        background-color: white;
+        width: 1125px;
+    }
+    .About-Us {
+        margin-bottom: 71px;
+        margin-top: 64px;
+        width: 1137px;
+    }
+    .Services {
+        background-color: white;
+        width: 1248px;
+    }
+    .Doctors-Sections {
+        width: 1116px;
+        background-color: #ffffff;
+        padding: 34px;
+    }
+    .Doctors-Grid {
+        display: grid;
+        grid-template-columns: 493px 494px;
+        grid-template-rows: 246px 246px;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 29px;
+    }
+    .Appointment {
+        width: 1154px;
+        background-color: #000437;
+        padding: 44px;
+    }
+    .placeholder {
+        width: 603px;
+        height: 39px;
+        border-radius: 7px;
+        border: 1px solid gray;
+        border-radius: 0px;
+        padding: 23px;
+    }
+}
