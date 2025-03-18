@@ -1,29 +1,32 @@
+
+
 @media(max-width:29.31em){
     /* .hero{
         max-width: 120rem;
     } */
     .serviceGrid{
-        grid-template-columns: 27rem 27rem;
+        grid-template-columns: 28rem 28rem;
         grid-template-rows: 22rem 22rem 22rem;
         width: 77%;
      }
      .divForForm{
         display: grid;
-        grid-template-columns: 400px 603px;
+        grid-template-columns: 466px 593px;
         grid-template-rows: auto;
         width: 1200px;
         margin: 81px auto;
+        margin-left: 20px;
      }
      .textA{
-        width: 1008px;
+        width: 1070px;
      }
      .nav-container{
-        width: 70rem;
+        width: 75rem;
         grid-template-columns: 1fr 1fr;
      }
 
      .hero{
-        width: 1161px;
+        width: 1189px;
         padding: 34px;
         margin-bottom: 57px;
      }
@@ -36,7 +39,7 @@
      .How-it-build {
         /* height: 166vh; */
         background-color: white;
-        width: 1125px;
+        width: 1206px;
     }
     .About-Us {
         margin-bottom: 71px;
@@ -44,11 +47,11 @@
         width: 1137px;
     }
     .Services {
-        background-color: white;
-        width: 1248px;
+            background-color: white;
+            width: 1201px;
     }
     .Doctors-Sections {
-        width: 1116px;
+        width: 1199px;
         background-color: #ffffff;
         padding: 34px;
     }
